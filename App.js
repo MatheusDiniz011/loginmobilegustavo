@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <ImageBackground source={require('./assets/sun.jpg')} resizeMode="cover" style={styles.sun}>
+       <ImageBackground source={require('./assets/toji.png')} resizeMode="cover" style={styles.sun}>
       <Text style={styles.titulo}>Login</Text>
       
       <TextInput style={styles.inputname} placeholder='Digite seu Nome' />
@@ -24,7 +24,7 @@ export default function App() {
       />
         <Image
           style={styles.sunny}
-          source={require('./assets/sunny.png')}
+          source={require('./assets/toji.png')}
         />
         </ImageBackground>
       <StatusBar style="auto" />
